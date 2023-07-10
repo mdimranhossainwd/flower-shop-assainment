@@ -159,3 +159,22 @@ p {
 .saleup-content p {
   margin-bottom: 25px;
 }
+
+/* INSTAGRAM-AREA-STARTED  */
+
+.instagram-area {
+  width: 1140px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.instagram-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+}
+
+.instagram-img img {
+  width: 270px;
+}
