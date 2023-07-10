@@ -22,4 +22,44 @@ h6 {
   font-weight: 900;
 }
 
+p {
+  color: rgba(39, 39, 39, 0.6);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+}
+
+.btn {
+  background: #e55473;
+  padding: 18px 30px;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+}
+
 /* COMMON-CSS-LINK END  */
+
+/* BANNER-AREA-START  */
+.banner-area {
+  background: rgba(229, 84, 115, 0.1);
+  justify-content: space-between;
+}
+.banner-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1140px;
+  padding: 30px 0 0 0;
+  margin: 0 auto;
+}
+
+.banner-content h2 {
+  font-size: 58px;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.banner-content p {
+  margin-bottom: 22px;
+}
