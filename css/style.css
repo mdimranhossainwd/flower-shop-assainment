@@ -64,6 +64,18 @@ p {
   margin-bottom: 22px;
 }
 
+/* COMMON-HEADING  */
+
+.common-heading {
+  text-align: center;
+  margin: 110px 0 50px 0;
+}
+
+.common-heading h3 {
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
 /* PRODUCT-BOXING-AREA-STARTING  */
 
 .product-box-area {
@@ -98,4 +110,17 @@ p {
 .product-box-img img {
   width: 310px;
   height: 350px;
+}
+
+.product-bottom-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.product-bottom-content a {
+  font-size: 18px;
+  color: #272727;
+  font-weight: 700;
 }
