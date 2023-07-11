@@ -68,7 +68,7 @@ p {
 
 .common-heading {
   text-align: center;
-  margin: 110px 0 50px 0;
+  margin: 90px 0 50px 0;
 }
 
 .common-heading h3 {
@@ -130,7 +130,7 @@ p {
 .saleup-area {
   background: rgba(229, 84, 115, 0.05);
 
-  margin: 120px 0;
+  margin: 80px 0 40px 0;
 }
 
 .saleup-box {
@@ -186,11 +186,17 @@ p {
   margin: 0 auto;
   background-image: url("../img/form_bg.png");
   background-size: cover;
-  padding: 30px 0;
+  margin-top: 100px;
 }
 
 .form-content {
   text-align: center;
+  padding: 60px 0;
+}
+
+.form-heading h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
 .form-content input {
@@ -198,4 +204,35 @@ p {
   padding: 20px 30px;
   border: none;
   margin-right: 12px;
+}
+
+/* FOOTER-AREA-STARTED  */
+
+footer {
+  background-color: #111010;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 90px 0 50px 0;
+  margin-top: 80px;
+}
+
+.footer-content h2 {
+  font-size: 35px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer-content span {
+  color: #e55473;
+}
+
+.footer-paragraph {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 25px;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
 }
